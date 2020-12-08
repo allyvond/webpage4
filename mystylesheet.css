@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(Bebas Neue/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(Open Sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Bungee';
+    src: url(Bungee/Bungee-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: repeating-linear-gradient(
+      45deg,
+      whitesmoke,
+      whitesmoke 10px,
+      #FFF 10px,
+    #FFF 20px
+    );
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    position: relative;
+    margin-bottom: 5%;
+}
+
+header img{
+    width: 200px;
+    padding: 0px;
+}
+
+#title {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Bungee';
+}
+
+.container {
+    position: relative;
+    top: 150px;
+    width: 1000px;
+}
+
+#content-box {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 3%;
+    background-color: #BD1A21;
+}
+
+a {
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 40px;
+    color: white;
+    font-family: 'Bebas Neue';
+}
+
+a:hover {
+    text-decoration: line-through;
+    color: yellow;
+}
+
+img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px
+}
+
+h1{
+    font-family: 'Bebas Neue'; 
+    font-size: 2em;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-size: 1em;
+    line-height: 1.6em;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
