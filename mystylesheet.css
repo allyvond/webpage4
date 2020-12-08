@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face {
     font-family: 'Bebas Neue';
     src: url(BebasNeue-Regular.ttf);
@@ -13,17 +19,12 @@
     src: url(Bungee-Regular.ttf);
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     background: repeating-linear-gradient(
       45deg,
-      whitesmoke,
-      whitesmoke 10px,
+      #f5f5f5,
+      #f5f5f5 10px,
       #FFF 10px,
     #FFF 20px
     );
@@ -54,7 +55,7 @@ header img{
 }
 
 #content-box {
-    background-color: white;
+    background-color: #FFF;
     padding: 15px;
     margin-bottom: 15px;
 }
@@ -73,13 +74,13 @@ a {
     font-size: 1.5em;
     text-decoration: none;
     padding: 40px;
-    color: white;
+    color: #FFF;
     font-family: 'Bebas Neue';
 }
 
 a:hover {
     text-decoration: line-through;
-    color: yellow;
+    color: #f5f5f5;
 }
 
 img {
